@@ -1,0 +1,64 @@
+
+.header {
+    background-color: #3b5998;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(back.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.intro{
+    
+}
+.about{
+    background-color: whitesmoke;
+    color: olive;
+    text-align: center;
+}
+marquee {
+    overflow: hidden;
+    white-space: nowrap;
+    animation: marquee 10s linear infinite;
+}
+
+@keyframes marquee {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+}
+.header h1 {
+    margin-left: 10px;
+    color: orange;
+}
+.header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav a:hover {
+    background-color: #334d82;
+}
+.fashion{
+    color: greenyellow;
+    background-color: black;
+    text-align: center;
+}
